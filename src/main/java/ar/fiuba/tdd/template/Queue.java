@@ -16,7 +16,7 @@ public class Queue<T> implements IQueue<T> {
         return this.firstNode.countChainNodes();
     }
 
-    public boolean IsEmpty() {
+    public boolean isEmpty() {
         return (this.size() == 0);
     }
 

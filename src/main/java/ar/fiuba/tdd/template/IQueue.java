@@ -1,7 +1,7 @@
 package ar.fiuba.tdd.template;
 
 public interface IQueue<T> {
-    boolean IsEmpty();
+    boolean isEmpty();
     int size();
     void add(T item);
     T top();

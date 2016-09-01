@@ -10,7 +10,7 @@ public class MainTests {
     @Test
     public void testNewQueueIsEmpty() {
         Queue<Integer> queue = new Queue<Integer>();
-        assertTrue(queue.IsEmpty());
+        assertTrue(queue.isEmpty());
     }
 
     @Test
@@ -49,7 +49,7 @@ public class MainTests {
         assertEquals(queue.top(), element);
 
         queue.remove();
-        assertTrue(queue.IsEmpty());
+        assertTrue(queue.isEmpty());
     }
 
     @Test
